@@ -1,0 +1,39 @@
+package castingTest;
+
+import java.util.Scanner;
+
+public class OperMasterStudy2 {
+	public static void main(String[] args) {
+//		사용자에게 값를 입력받고
+//		정수라면 정수입니다를 출력
+//		실수라면 실수입니다를 출력
+		
+//		1. 스캐너
+		Scanner sc = new Scanner(System.in);
+		
+//		2. 메세지 및 출력
+		String message = "숫자를 하나 입력하시오.",
+				jung = "정수입니다.",
+				shil = "실수입니다.",
+		        errorMessage = "잘못 입력하셨습니다.";
+		System.out.println(message);
+		
+//		3. 최소값
+		double num1 = 0.0;
+		int num2 = 0;
+		String input = null;
+		
+//		4. 입력받기
+		input = sc.next();
+		
+//		5. 형변환
+		num1 = Double.parseDouble(input);
+		num2 = (int)num1;
+		
+//		6. 출력
+		System.out.println(num1 == num2 ? jung
+				: num1 != num2 ? shil 
+						:errorMessage);
+		
+	}
+}

@@ -1,0 +1,23 @@
+package study0730;
+
+public class MethodStudy10 {
+//	문자열 소문자를 대문자로, 대문자를 소문자로
+	public static void upperLower(String word) {
+		int num;
+		for(int i = 0; i <word.length(); i++) {
+			if((char)i > 65 && (char)i < 90) {
+				num = word.charAt(i += 32);
+				break;
+			}else if((char)i > 97 && (char)i < 122) {
+				num = word.charAt(i -= 32);
+				break;
+			}else {
+				num = i;
+				break;
+			}
+		}
+	}
+	public static void main(String[] args) {
+		upperLower("Hello");
+	}
+}

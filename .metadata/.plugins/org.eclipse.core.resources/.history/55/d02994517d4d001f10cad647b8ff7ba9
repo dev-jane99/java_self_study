@@ -1,0 +1,18 @@
+package ClassTest;
+
+public class A {
+//	   필드라고 부르는 애들
+	   int data;
+	   void add() {}
+	   public A() {;} //선언 하지말자라고 정하는 글임
+	   this
+	
+	public static void main(String[] args) {
+		
+//		객체화하기
+		A 내꺼 = new A();
+		A 니꺼 = new A();
+		System.out.println(내꺼.data);
+		System.out.println(니꺼.data);
+	}
+}

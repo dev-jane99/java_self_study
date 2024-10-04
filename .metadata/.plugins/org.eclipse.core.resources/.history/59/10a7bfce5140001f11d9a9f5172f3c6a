@@ -1,0 +1,23 @@
+package examjane01;
+
+import java.util.Scanner;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		
+	
+		char currency = '$';
+		int costPerItem = 200;
+		
+		System.out.println("Number of items: ");
+		int price = scan.nextInt();  //정수값 입력 대기
+		
+		System.out.println("Cost per item:" + costPerItem + currency);
+		System.out.println("Total cost:" + costPerItem * price + currency);
+		scan.close();
+	}
+
+}

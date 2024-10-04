@@ -1,0 +1,11 @@
+package study0730;
+
+public class MethodStudy06 {
+//	나이에 10을 더해주는 메소드
+	public static int addAge(int num) {
+		return num + 10;
+	}
+	public static void main(String[] args) {
+		addAge(5);
+	}
+}

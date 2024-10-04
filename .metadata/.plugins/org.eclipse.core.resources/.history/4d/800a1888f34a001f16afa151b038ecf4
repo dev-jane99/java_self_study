@@ -1,0 +1,61 @@
+package arrayTest; //패키지
+
+public class ArrayTask2 { //클래스
+	public static void main(String[] args) {  //메서드
+//		브론즈
+//		1~10 까지 배열에 담고 출력
+//		int[] num1 = new int[10];
+//		for(int i = 0; i < num1.length; i++) {
+//			num1[i] = i + 1;
+//		System.out.println(num1[i]);
+//		}
+//		
+//		
+////		1~100 까지 배열에 담고 홀수만 출력
+//		int[] num2 = new int[100];
+//		
+//		for(int i = 0; i < num2.length; i += 2) {
+//			num2[i] = i + 1;
+//			System.out.println(num2[i]);
+//		}
+				
+//		또는
+		
+		
+		
+//		실버
+//		1~100 까지 담고 짝수의 합을 출력
+		int[] arData1 = new int[100];
+		int sum = 0;
+		
+		for (int i = 0; i < arData1.length; i++) {
+			arData1[i] = i + 1;
+			if ( i % 2 != 0) {
+			sum += arData1[i];
+		    }
+		}
+			System.out.println(sum);
+	
+//		A~F까지 담고 출력
+		int[] numLetter = new int[6];
+		char realLetter = ' ';
+		
+		
+		for (int i = 0; i < numLetter.length; i++) {
+			numLetter[i] = i + 1;
+			realLetter = ((char)('A' + i));
+		}
+			System.out.println(realLetter);
+	
+		
+//		A~F까지중 C를 제외하고 배열에 담고 출력
+//			for (int i = 0; i <??.length; i++) {
+//				if ( i % 'C' == 0) {
+//					
+//				}
+//			}
+//		골드
+//		5개의 정수를 입력받고 배열에 담은 후 최대값과 최소값 출력
+		
+	}
+}

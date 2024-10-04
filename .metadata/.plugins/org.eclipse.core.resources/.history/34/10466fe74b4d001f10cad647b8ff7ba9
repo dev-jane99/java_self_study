@@ -1,0 +1,34 @@
+package methodTest;
+
+public class MethodTask4 {
+//	문자열을 입력받고 원하는 문자의 개수를 구해주는 메소드
+	String numOfWords (String words) {
+		String search = "";
+		for(int i = 0; i < words.length(); i++) {
+			char abc = words.charAt(i);
+			int howMany = Integer.parseInt(words);
+			if(65 <= abc && abc >= 122) {
+				howMany += abc;
+			}else {
+				howMany += abc;
+			}
+		}
+			return search;
+		}
+		public static void main(String[] args) {
+			MethodTask4 mt = new MethodTask4();
+			mt.numOfWords("abcdef");
+			System.out.println(mt.numOfWords("abcdef"));
+	}
+//	5개의 정수를 입력받은 후 원하는 인덱스의 값을 구해주는 메소드
+	
+//	한글을 정수로 바꿔주는 메소드 (일공이사 -> 1024)
+	
+	
+	
+	
+	
+	
+	
+	}
+}

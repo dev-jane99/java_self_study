@@ -1,0 +1,19 @@
+package study0730;
+
+import java.security.DomainCombiner;
+
+public class MethodStudy09 {
+//	호수를 짝수로,  짝수를 홀수로
+	public static void num(int n) {
+		for(int i = 0; i < n; i ++) {
+			if(i % 2 == 0) {
+				System.out.println(i + 1);
+			}else {
+				System.out.println(i);
+			}
+		}
+	}
+	public static void main(String[] args) {
+		num(2);
+	}
+}

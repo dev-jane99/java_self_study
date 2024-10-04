@@ -1,0 +1,27 @@
+package study0730;
+
+import java.security.DomainCombiner;
+
+public class MethodStudy09 {
+//	호수를 짝수로,  짝수를 홀수로
+//	public static void num(int n) {
+//		for(int i = 0; i < n; i ++) {
+//			if(n % 2 == 0) {
+//				System.out.println(n + 1);
+//				break;
+//			}else {
+//				System.out.println(n - 1);
+//				break;
+//			}
+//		}
+//	}
+	int change(int number) {
+		return ++number;
+	}
+	public static void main(String[] args) {
+//		num(5);
+		MethodStudy09 ms = new MethodStudy09();
+		ms.change(0);
+		System.out.println(ms.change(5));
+	}
+}

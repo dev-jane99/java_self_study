@@ -1,0 +1,55 @@
+package study0727;
+
+import java.util.Scanner;
+
+public class StringStudy2 {
+	public static void main(String[] args) {
+//		Q. 입력받은 영어이름을 대소문자 상관없이 모두 대문자로 변환하기
+//		입력은 스트링으로 받고 돌리는건 스트링을 캐릭터로바꾸고, 숫자를 캐릭터로 변환한걸 갖고 스트링으로 변환시키기..가 나의 계획
+		
+//		1. 스캐너
+		Scanner sc = new Scanner(System.in);
+		
+//		2. 메세지
+		String message = "영어이름을 성과 함께 입력하세요."
+				+ "\n예)Jane Ryo";
+		System.out.println(message);
+		
+//		3. 초기값
+		String firstName = "", lastName = "";
+		String fullName = "";
+		char letter = ' ';
+		int gap = 32;
+		String result = "";
+/*	    a : 97 - z :122
+		A : 65 - Z :90 */
+		
+//		4. 입력
+		fullName = sc.nextLine();
+	
+		
+//		입력받은 스트링 풀네임을 캐릭터로 변환시켜주기
+		for(int i = 0; i < fullName.length(); i++) {
+			char letter = fullName.charAt(i);
+	
+//		5. 형변환
+		if (letter >= 97 && letter <= 122) {
+			result += (char)(letter - gap);
+		}else if(letter >= 65 && letter <= 90) {
+			result += (char)letter + gap;
+		}else {
+			result += letter;
+		}
+		}
+			System.out.println(result);
+//	    6. 출력
+		
+		
+//		gap = name > 97 ? (int)name - 32 : (int)name + 32; ?????
+		
+//		기억안남이슈
+		
+		
+		
+	}
+}

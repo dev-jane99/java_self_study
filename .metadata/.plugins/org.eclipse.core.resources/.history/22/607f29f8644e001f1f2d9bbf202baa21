@@ -1,0 +1,15 @@
+package study0730;
+
+public class MethodStudy03 {
+//  Q. 홍길동을 n번 출력하는 메서드
+	void printName(int num) {
+		for(int i = 0; i < num ; i++) {
+			System.out.println("홍길동");
+		}
+	}
+		public static void main(String[] args) {
+			MethodStudy03 ms = new MethodStudy03();
+		    ms.printName(7);
+			
+		}
+}

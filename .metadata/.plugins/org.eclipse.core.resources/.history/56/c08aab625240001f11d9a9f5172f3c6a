@@ -1,0 +1,16 @@
+package examjane01;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int maxScore = 100;
+		int actualScore = 20;
+		
+		float percentage = (float) actualScore / maxScore * 100.0f;
+		
+		System.out.println("percentage is:" + percentage);
+		
+	}
+
+}

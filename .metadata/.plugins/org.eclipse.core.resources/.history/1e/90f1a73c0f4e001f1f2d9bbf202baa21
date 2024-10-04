@@ -1,0 +1,28 @@
+package StaticTask;
+
+public class StaticTask1 {
+//	필드
+//	money 회사의 총 수입
+//	name 이름
+//	age 나이
+//	income 수입
+	
+//	기본생성자 생성
+//	초기화 생성자 생성: 이름, 나이
+//	1번 사원: "류재은", 24
+//	2번 사원: "류보명", 23
+//	3번 사원: "안유림", 24
+//	4번 사원: "박상욱", 24
+	
+	public static void main(String[] args) {
+//	필드 구성 후 객체화
+//	객체화 시 생성자로 초기화
+//	회사원 employee1 총 수입 10000
+//	회사원 employee2 총 수입 1000
+//	회사원 employee3 총 수입 2000
+//	회사원 employee4 총 수입 -10000
+		
+		
+	}
+	
+}

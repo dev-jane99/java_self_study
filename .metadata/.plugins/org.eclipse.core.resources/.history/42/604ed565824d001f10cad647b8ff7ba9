@@ -1,0 +1,21 @@
+package ClassTest;
+
+public class ClassTest {
+	String name;
+	int age;
+
+	public ClassTest() {;};
+	public ClassTest(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public static void main(String[] args) {
+		ClassTest per1 = new ClassTest("짱구", 5);
+		ClassTest per2 = new ClassTest("철수", 6);
+		ClassTest per3 = new ClassTest("영희", 20);
+		
+		System.out.println(per1.name +" "+ per1.age);
+		System.out.println(per2.name +" "+ per2.age);
+		System.out.println(per3.name +" "+ per3.age);
+	}
+}

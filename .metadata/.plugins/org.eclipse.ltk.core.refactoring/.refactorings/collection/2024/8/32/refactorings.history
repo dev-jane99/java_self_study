@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;JSON.JasonTest2&apos; to &apos;JsonTest2&apos;&#x0D;&#x0A;- Original project: &apos;collection&apos;&#x0D;&#x0A;- Original element: &apos;JSON.JasonTest2&apos;&#x0D;&#x0A;- Renamed element: &apos;JSON.JsonTest2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JasonTest2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;JSON{JasonTest2.java[JasonTest2" matchStrategy="1" name="JsonTest2" qualified="false" references="true" similarDeclarations="false" stamp="1723007136186" textual="false" version="1.0"/>
+</session>

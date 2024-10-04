@@ -1,0 +1,21 @@
+package examjane01;
+
+import java.util.Scanner;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Scanner scan = new Scanner (System.in);
+		int maxScore = 100;
+		System.out.println("Insert your score:");
+		int actualScore = scan.nextInt();
+		
+		double percentage = actualScore / maxScore * 100.0d;
+		
+		System.out.println("percentage is:" + percentage + "%");
+		
+	}
+
+}

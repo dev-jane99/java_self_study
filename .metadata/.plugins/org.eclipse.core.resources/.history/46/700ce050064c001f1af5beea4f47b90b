@@ -1,0 +1,53 @@
+package study0727;
+
+import java.util.Scanner;
+
+public class StringStudy2 {
+	public static void main(String[] args) {
+//		Q. 입력받은 영어이름을 대소문자 상관없이 모두 대문자로 변환하기
+		
+//		1. 스캐너
+		Scanner sc = new Scanner(System.in);
+		
+//		2. 메세지
+		String message = "영어이름을 성과 함께 입력하세요."
+				+ "\n예)Jane Ryo";
+		System.out.println(message);
+		
+//		3. 최소값
+		String firstName = "", lastName = "";
+		char letter = ' ';
+		int gap = 32;
+//		a : 97
+//		A : 65
+		
+//		4. 입력
+		firstName = sc.next();
+		lastName = sc.next();
+	
+		
+//		array랑 형변환  x
+//		String[] name = null;
+//		for(int i = 0; i < name.length; i++)
+//			name = (char)name.length[i]; 이거 쓰는거 아닌듯
+				
+//		5. 형변환
+		if (letter >= 97 && letter <= 122) {
+			System.out.println(String.valueOf((char)letter - gap));
+		}else if(letter >= 65 && letter <= 90) {
+			System.out.println(String.valueOf((char)letter + gap));
+		}else {
+			System.out.println("영어만 입력 해 주세요");
+		}
+			
+//	    6. 출력
+		
+		
+//		gap = name > 97 ? (int)name - 32 : (int)name + 32; ?????
+		
+//		기억안남이슈
+		
+		
+		
+	}
+}

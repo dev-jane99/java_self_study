@@ -1,0 +1,9 @@
+package methodTest;
+
+public class MethodTask1 {
+	void print(int num) {
+		System.out.println(num);
+		
+		
+	}
+}

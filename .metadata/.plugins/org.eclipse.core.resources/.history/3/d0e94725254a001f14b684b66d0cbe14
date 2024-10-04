@@ -1,0 +1,48 @@
+package operExpert;
+
+import java.util.Scanner;
+
+public class Oper {
+	public static void main(String[] args) {
+		//재은 태혁 승용 소연
+		//(마스터)
+//		사용자에게 값를 입력받고
+//		정수라면 정수입니다를 출력
+//		실수라면 실수입니다를 출력
+		
+//		예) 183 -> 입력한 값은 정수입니다.
+//		183.5 -> 입력한 값은 실수 입니다.
+		
+//		형변/스캐너/연산자 사용
+		
+		Scanner sc = new Scanner(System.in);
+		int num1 = 0;
+		double num2 = 0.0;
+		
+		
+	
+//		num1 = Integer.parseInt(sc.next());
+//		num2 = Double.parseDouble(sc.next());
+			
+		
+		String message = "정수 또는 실수를 입력하세요.",
+				exampleMessage = "예)183 or 183.5";
+		String intMessage = "입력한 값은 정수입니다.";
+		String doubleMessage = "입력한 값은 실수입니다.";
+		String result = null;
+		
+		System.out.println(message);
+		System.out.println(exampleMessage);
+		
+		num1 = sc.nextInt();
+		num2 = sc.nextDouble();
+		
+//		System.out.println(num1 != num2 ? intMessage : doubleMessage);
+//	
+//
+		result = num1 != num2 ? intMessage : doubleMessage;
+		System.out.println(result);
+		
+		
+	}
+}

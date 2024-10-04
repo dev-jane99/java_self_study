@@ -1,0 +1,18 @@
+package controlStatement;
+
+public class ForTest {
+	public static void main(String[] args) {
+		
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+		System.out.println("류재은");
+	}
+}

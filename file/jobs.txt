@@ -1,0 +1,5 @@
+Jane's job is a Student.
+Olie's job is a Marketer.
+Sart's job is a Manager.
+Bi's job is a IT Specialist.
+Alina's job is a Restaurant Owner.

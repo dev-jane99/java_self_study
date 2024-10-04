@@ -1,0 +1,14 @@
+package examjane01;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name01 = ("jane");
+		String name02 = ("ryo");
+		System.out.println(name01 + name02);
+		
+	}
+
+}

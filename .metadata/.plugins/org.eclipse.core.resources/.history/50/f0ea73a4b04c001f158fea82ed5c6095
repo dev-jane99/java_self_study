@@ -1,0 +1,50 @@
+package study0727;
+
+import java.util.Scanner;
+
+public class IdPassword1 {
+	public static void main(String[] args) {
+		
+//		아이디와 비밀번호를 저장해두고 사용자에게 입력을 받기
+		Scanner sc = new Scanner(System.in);
+		String idMessage = "아이디를 입력하세요", 
+				pwMessage = "비밀번호를 입력하세요",
+				wrongInfo = "아이디 또는 비밀번호가 올바르지 않습니다.",
+				rightInfo = "로그인 되었습니다.";
+
+		
+//		초기값과 사용자의 아이디와 비밀번호
+		String inputId = null, inputPw = null;
+//		String result = null;
+
+		
+//		조건
+		String id = "Passwordis@",
+			pw = "12345678";
+		
+//		result = id == inputId && pw == inputPw;
+
+		
+//		입력받기
+		System.out.println(idMessage);
+		inputId = sc.next();
+		System.out.println(pwMessage);
+		inputPw = sc.next();
+		
+		
+//		출력하기
+
+		System.out.println(inputId == id && inputPw == pw ? rightInfo : worngInfo);
+		
+		}
+//		System.out.println(id == inputId && pw == inputPw ? rightInfo : wrongInfo);
+//		if (id == inputId || pw != inputPw) {
+//			System.out.println(wrongInfo);
+//		}else {
+//			System.out.println(rightInfo);
+//		}
+
+		
+				
+	}
+

@@ -1,0 +1,16 @@
+package examjane01;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		boolean loveBeaf = true;
+		boolean hateFish = false;
+		System.out.println(loveBeaf);
+		System.out.println(hateFish);
+		
+	}
+
+}
